@@ -1,0 +1,13 @@
+@media (min-width: 1250px) {
+    #navbutton {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: auto;
+        background-color: var(--accent-1);
+    }
+}

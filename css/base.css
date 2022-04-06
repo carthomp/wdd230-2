@@ -1,0 +1,133 @@
+/* Color Variables */
+:root {
+    --main-bg-color:  #F8E9E9;
+    --main-text-color: black;
+    --text-color-on-color: var(--main-bg-color);
+    --heading-bg-color: #334E58;
+    --header-bg-color: #69995D;
+    --accent-1: #3C5C68;
+    --accent-2: #9C7CA5;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+/* Fonts, Header/Footer/Nav setup - global stuff*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Libre Baskerville", "Times New Roman", serif;
+    background-color: var(--heading-bg-color);
+    color: var(--text-color-on-color);
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin: 0px;
+    box-shadow: 0px 10px 15px black;
+    border-radius: 2px;
+    font-size: 1.25em;
+}
+
+p, a, label, button, img {
+    font-family: Ubuntu, Arial, sans-serif;
+}
+
+header {
+    background-color: var(--header-bg-color);
+}
+
+footer {
+    background-color: var(--heading-bg-color);
+    color: var(--text-color-on-color);
+    box-shadow: 0px 10px 15px black;
+}
+
+.header-logo {
+    max-width: fit-content;
+    margin: auto;
+}
+
+.header-logo img {
+    max-width: 20vw;
+    margin: auto;
+}
+
+#navbutton {
+    background-color: var(--heading-bg-color);
+    float: right;
+    margin: 10px;
+    width: 10vw;
+    height: 10vw;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 2px;
+    color: var(--text-color-on-color)
+}
+
+#navbutton:active {
+    background-color: var(--accent-2);
+}
+
+#navbutton.active {
+    background-color: var(--accent-2);
+}
+
+nav {
+    text-align: center;
+    background-color: var(--main-bg-color);
+    margin-top: -5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+nav li {
+    background-color: var(--accent-1);
+    padding: 3px;
+    margin: 1px;
+    border-radius: 3px;
+}
+
+nav li a {
+    color: var(--text-color-on-color);
+    text-decoration: none;
+}
+
+nav li a:hover {
+    font-size: 110%;
+}
+
+.active {
+    display: block;
+}
+
+footer {
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0px;
+    padding: 2px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:visited {
+    color: var(--accent-2);
+}
+
+.social {
+    width: 10vw;
+}
+
+.footer-logo {
+    max-height: 10vw;
+}
+
+body {
+    margin: 0;
+}
