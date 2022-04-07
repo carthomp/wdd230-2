@@ -10,4 +10,10 @@
         max-width: auto;
         background-color: var(--accent-1);
     }
+
+    /* Temples Page */
+    .temples-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

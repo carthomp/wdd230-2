@@ -66,7 +66,7 @@ let likedList = storage.getItem("likedTemples");
 console.log(likedList);
 let defaultLikes = [0,0,0,0];
 if (likedList === null) storage.setItem("likedTemples", defaultLikes);
-const content = document.querySelector("div.temples-content");
+const content = document.querySelector("div.temples-cards");
 const requestURL = "https://carthomp.github.io/wdd230-2/data/data.json";
 
 fetch(requestURL)

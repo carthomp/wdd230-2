@@ -32,4 +32,24 @@
     nav li a:hover {
         font-size: 1.38em;
     }
+
+    /* Temples Page */
+    .card img {
+        float: left;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .card p:first-of-type {
+        margin-top: 20px;   
+    }
+
+    .card p, .likebutton {
+        margin: 10px;
+    }
+
+    .likebutton {
+        max-width: 75px;
+        max-height: 75px;
+    }
 }

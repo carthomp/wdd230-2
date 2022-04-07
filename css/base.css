@@ -132,8 +132,18 @@ body {
     margin: 0;
 }
 
+/* Homepage Content */
+
+
+
+/* Temple Page Content */
 .temples-content {
     margin-top: 20px;
+    text-align: center;
+}
+
+.temples-content p {
+    padding: 10px;
 }
 
 .card {
@@ -142,11 +152,22 @@ body {
     padding-top: 0px;
     border: 1px solid black;
     border-radius: 0px 0px 15px 15px;
+    text-align: center;
+}
+
+.card p {
+    padding: 0px;
+    margin: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    border: 5px double black;
 }
 
 .likebutton {
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
     font-size: 175%;
     text-align: center;
     background-color: var(--accent-1);
@@ -161,7 +182,7 @@ body {
 
 .liked {
     background-color: white;
-    border: 1px solid var(--accent-1);
+    border: 5px double var(--accent-1);
     color: var(--accent-2);
     font-size: 200%;
 }
