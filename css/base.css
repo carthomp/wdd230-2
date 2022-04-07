@@ -190,3 +190,58 @@ body {
 .liked:active {
     background-color: var(--accent-1);
 }
+
+/* Services Page Content */
+.services-content {
+    margin-top: 16px;
+}
+
+.services-content img {
+    max-width: 90%;
+    border: double 5px black;
+    padding: 10px;
+    margin: 1vw;
+}
+
+.services-content p {
+    padding: 10px;
+}
+
+.services-content ul {
+    list-style: none;
+    padding: 15px;
+}
+.services-content li {
+    font-family: Ubuntu, Arial, sans-serif;
+    padding: 2px;
+}
+
+.services-content form {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    margin: auto;
+    margin-bottom: 16px;
+    border: 5px double black;
+    padding: 10px;
+}
+
+.services-content input, .services-content label {
+    margin: 5px;
+}
+
+#temple-assignment {
+    /* display: flex;
+    flex-direction: column; */
+    max-width: 50vw;
+    margin: auto;
+}
+
+#missionary-submit {
+    max-width: 30vw;
+    margin: 10px auto;
+    background-color: var(--heading-bg-color);
+    color: var(--text-color-on-color);
+    font-family: Ubuntu, Arial, sans-serif;
+    font-size: 100%;
+}

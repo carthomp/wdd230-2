@@ -12,7 +12,7 @@
         font-size: 1.5em;
     }
 
-    p, a, label {
+    p, a, label, li {
         font-size: 1.25em;
     }
 
@@ -51,5 +51,42 @@
     .likebutton {
         max-width: 75px;
         max-height: 75px;
+    }
+
+    /* Services Page */
+    .services-content img {
+        width: 40vw;
+        max-width: 300px;
+    }
+
+    #services-main ul {
+        width: fit-content;
+        margin: auto;
+    }
+
+    #receptions {
+        clear: left;
+    }
+
+    #receptions img {
+        float: right;
+    }
+
+    #receptions ul {
+        clear: right;
+    }
+
+    .image-centerer {
+        display: none;
+    }
+
+    #missionary img {
+        float: left;
+        margin-right: 12px;
+        margin-top: 16px;
+    }
+
+    #missionary p:nth-of-type(2) {
+        clear: left;
     }
 }
