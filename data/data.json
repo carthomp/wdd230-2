@@ -5,27 +5,35 @@
       "address": "10301 San Francisco Rd NE Albuquerque NM 87122-3437 United States",
       "phonenum": "(505)822-5110",
       "info": "https://www.churchofjesuschrist.org/temples/details/albuquerque-new-mexico-temple?lang=eng",
-      "dedicated": "5 March 2000"
+      "dedicated": "5 March 2000",
+      "smallimage" : "images/abqS.jpg",
+      "medimage" : "images/abqM.jpg"
     },
     {
       "location": "Bountiful, Utah",
       "address": "640 S Bountiful Blvd Bountiful UT 84010-1394 United States",
       "phonenum": "(801)296-2100",
       "info": "https://www.churchofjesuschrist.org/temples/details/bountiful-utah-temple?lang=eng",
-      "dedicated": "8 January 1995"
+      "dedicated": "8 January 1995",
+      "smallimage" : "images/bountifulS.jpg",
+      "medimage" : "images/bountifulM.jpg"
     },
     {
       "location": "Houston, Texas",
       "address": "15725 Champion Forest Dr Spring TX 77379-7036 United States",
       "phonenum": "(979)703-1804",
       "info": "https://www.churchofjesuschrist.org/temples/details/houston-texas-temple?lang=eng",
-      "dedicated": "26 August 2000"
+      "dedicated": "26 August 2000",
+      "smallimage" : "images/houstonS.jpg",
+      "medimage" : "images/houstonM.jpg"
     },
     {
       "location": "Cochabamba, Bolivia",
       "address": "Av. Melchor Urquidi 1500 Alto Queru Queru Cochabamba Bolivia",
       "phonenum": "(591)4-429-3161",
       "info": "https://www.churchofjesuschrist.org/temples/details/cochabamba-bolivia-temple?lang=eng",
-      "dedicated": "30 April 2000"
+      "dedicated": "30 April 2000",
+      "smallimage" : "images/cochabambaS.jpeg",
+      "medimage" : "images/cochabambaS.jpeg"
     }
   ]}
