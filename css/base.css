@@ -133,7 +133,73 @@ body {
 }
 
 /* Homepage Content */
+.home-content {
+    margin-top: 16px;
+}
 
+#clickthrough a {
+    text-decoration: none;
+    color: var(--text-color-on-color)
+}
+
+.home-content button {
+    background-color: var(--heading-bg-color);
+    color: var(--text-color-on-color);
+}
+
+.clickthrough-button, .clickthrough-image {
+    display: none;
+}
+
+.clickthrough-image {
+    max-width: 100%;
+    max-height: 200px;
+    margin: auto;
+    border: double 5px black;
+}
+
+.clickthrough-button.active, .clickthrough-image.active {
+    display: block
+}
+
+#left-arrow {
+    position: relative;
+    top: -35vw;
+    left: 1vw;
+}
+
+#right-arrow {
+    position: relative;
+    top: -35vw;
+    right: -82vw;
+}
+
+.clickthrough-button {
+    position: relative;
+    top: -12vw;
+    left: 25%;
+    width: 50%;
+}
+
+#contact-card {
+    padding: 10px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#temple-highlight {
+    padding: 10px;
+    text-align: center;
+}
+
+#temple-highlight h2 {
+    font-size: 100%;
+}
+
+#temple-highlight img {
+    max-width: 100%;
+    margin-top: 16px;
+}
 
 
 /* Temple Page Content */
@@ -240,6 +306,33 @@ body {
 #missionary-submit {
     max-width: 30vw;
     margin: 10px auto;
+    background-color: var(--heading-bg-color);
+    color: var(--text-color-on-color);
+    font-family: Ubuntu, Arial, sans-serif;
+    font-size: 100%;
+}
+
+/* Reservations Page */
+.reservations-content {
+    padding: 10px;
+    margin-top: 16px;
+    text-align: center;
+}
+.reservations-content form {
+    border: 5px double black;
+    margin-top: 16px;
+    padding: 10px;
+}
+
+.reservations-content input, textarea {
+    width: 80vw;
+}
+
+#location input {
+    width: auto;
+}
+
+#reservation-submit {
     background-color: var(--heading-bg-color);
     color: var(--text-color-on-color);
     font-family: Ubuntu, Arial, sans-serif;

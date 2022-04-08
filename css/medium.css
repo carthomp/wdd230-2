@@ -89,4 +89,35 @@
     #missionary p:nth-of-type(2) {
         clear: left;
     }
+    
+    /* Home Page */
+    .clickthrough-image {
+        max-width: 90vw;
+        width: auto;
+        max-height: fit-content;
+    }
+
+    #left-arrow {
+        position: relative;
+        top: -30vw;
+        left: 1vw;
+    }
+    
+    #right-arrow {
+        position: relative;
+        top: -30vw;
+        right: -91vw;
+    }
+    
+    #temple-highlight h2 {
+        font-size: 1.5em;
+    }
+    
+    .clickthrough-button {
+        position: relative;
+        top: -12vw;
+        left: 25%;
+        width: 50%;
+    }
+    
 }

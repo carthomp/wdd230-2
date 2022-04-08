@@ -28,7 +28,40 @@
         </nav>
     </header>
     <main>
-        <div class="home-content"><p>Text</p></div>
+        <div class="home-content">
+            <div id="clickthrough">
+                <img id="img1" class="clickthrough-image" src="images/frontdeskbase.jpg" alt="Hotel Front Desk">
+                <button id="button1" class="clickthrough-button"><a href="reservation.html">Make a Reservation!</a></button>
+                <img id="img2" class="clickthrough-image"  src="images/houstonM.jpg" alt="Houston, Texas Temple">
+                <button id="button2" class="clickthrough-button"><a href="temple.html">Learn More About our Temples!</a></button>
+                <img id="img3" class="clickthrough-image"  src="images/seniorcouplebase.jpg" alt="Senior Missionary Couple">
+                <button id="button3" class="clickthrough-button"><a href="services.html">Learn More About our Services!</a></button>
+                <button id="left-arrow">←</button>
+                <button id="right-arrow">→</button>
+            </div>
+            <div id="contact-card">
+                <h2>Contact Us</h2>
+                <p>(123)456-7890</p>
+                <p>realemail@website.org</p>
+                <a href="https://facebook.com" target="blank_">Find us on Facebook!</a><br>
+                <a href="https://twitter.com" target="blank_">Find Updates for Each Location on Twitter!</a>
+                <p>For Wedding Reception Setup and Catering, please contact us at realemail-receptions@website.org</p>
+            </div>
+            <div id="temple-highlight">
+                <h2>Albuquerque, New Mexico Temple</h2>
+                <img src="images/abqS.jpg" alt="Albuquerque, New Mexico Temple">
+                <p>The First Temple in New Mexico</p>
+                <p>Located in Eastern Albuquerque</p>
+                <p>Dedicated on March 5, 2000</p>
+                <div id="weather-card">
+                    <h3>Current Weather</h3>
+                    <p>Temperature: <span id="temp-value"></span>°</p>
+                    <p id="weather-descrip"></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                </div>
+            </div>
+
+        </div>
     </main>
     <footer>
         <picture><img src="images/templepng.png" alt="Temple Inn and Suites Logo" class="footer-logo"></picture>
@@ -45,4 +78,6 @@
     </footer>
 </body>
 <script src="js/global.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/clickthrough.js"></script>
 </html>

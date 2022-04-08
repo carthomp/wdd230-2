@@ -62,4 +62,34 @@
     .image-centerer {
         display: block;
     }
+
+    .clickthrough-image {
+        max-height: 300px;
+    }
+
+    #left-arrow {
+        position: static;
+        float: left;
+        width: 5vw;
+        height: 5vw;
+    }
+    
+    #right-arrow {
+        position: static;
+        float: right;
+        width: 5vw;
+        height: 5vw;
+    }
+    
+    .clickthrough-button {
+        position: relative;
+        top: 2vw;
+        max-width: 400px;
+        left: 37vw;
+        font-size: 150%;
+    }
+
+    #contact-card {
+        clear: both;
+    }
 }

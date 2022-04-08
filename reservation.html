@@ -28,7 +28,39 @@
         </nav>
     </header>
     <main>
-        <div class="home-content"><p>Text</p></div>
+        <div class="reservations-content">
+            <h2>Make a Reservation</h2>
+            <form>
+                <div id="main-form-body">
+                    <label for="firstname">First Name:</label><br>
+                    <input type="text" id="firstname" name="firstname" required><br>
+                    <label for="lastname">Last Name:</label><br>
+                    <input type="text" id="lastname" name="lastname" required><br>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="phone">Phone Number (numbers only):</label><br>
+                    <input type="number" id="phone" name="phonenum" required><br>
+                    <label for="home">Home State/Country:</label><br>
+                    <input type="text" id="home" name="home"><br>
+                    <label for="numrooms">Number of Rooms:</label><br>
+                    <input type="number" id="numrooms" name="numrooms" required><br>
+                    <label for="location">Reservation Location:</label><br>
+                </div>
+                <div id="location">
+                    <input type="radio" id="albuquerque" name="location" value="albuquerque" checked>
+                    <label for="albuquerque">Albuquerque</label><br>
+                    <input type="radio" id="bountiful" name="location" value="bountiful">
+                    <label for="bountiful">Bountiful</label><br>
+                    <input type="radio" id="cochabamba" name="location" value="cochabamba">
+                    <label for="cochabamba">Cochabamba</label><br>
+                    <input type="radio" id="houston" name="location" value="houston">
+                    <label for="houston">Houston</label><br>
+                </div>
+                <label for="additions">Additional Requests/Services (including reception setup and dining requests):</label>
+                <textarea id="additions"></textarea>
+                <input type="submit" name="submit" id="reservation-submit">
+            </form>
+        </div>
     </main>
     <footer>
         <picture><img src="images/templepng.png" alt="Temple Inn and Suites Logo" class="footer-logo"></picture>
